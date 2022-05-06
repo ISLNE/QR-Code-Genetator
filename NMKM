@@ -1,0 +1,50 @@
+{
+  "status" : "final",
+  "category" : [
+    {
+      "text" : "Laboratory",
+      "coding" : [
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+          "display" : "Laboratory",
+          "code" : "laboratory"
+        }
+      ]
+    }
+  ],
+  "code" : {
+    "text" : "COVID-19 Nucleic acid amplification with probe detection",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "display" : "Nucleic acid amplification with probe detection",
+        "code" : "LP6464-4"
+      },
+      {
+        "system" : "urn:apple:medicalrecords:text",
+        "display" : "COVID-19 Nucleic acid amplification with probe detection"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "display" : "COVID-19",
+        "code" : "840539006"
+      }
+    ]
+  },
+  "performer" : [
+    {
+      "display" : "Lääkärikeskus Aava "
+    }
+  ],
+  "valueCodeableConcept" : {
+    "coding" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "display" : "Not detected",
+        "code" : "260415111"
+      }
+    ]
+  },
+  "effectiveDateTime" : "2022-05-06T12:51:59Z",
+  "resourceType" : "Observation"
+}
